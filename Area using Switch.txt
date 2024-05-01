@@ -1,0 +1,54 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() {
+  
+ 
+int choice;
+float radius,base,height,side,area;
+
+printf("Choose ashape to calculate the area:\n");
+printf("1 Circle\n");
+printf("2 Triangle\n");
+printf("3 Square\n");
+printf("4 Rectangle\n");
+scanf("%d",&choice);
+switch(choice){
+    case 1:
+    printf("Enter the radius of circle:");
+    scanf("%f",&radius);
+    area = 3.14*radius*radius;
+    printf("Area of Circle is%.2f\n",area);
+    break;
+
+ case 2:
+    printf("Enter the base of Triangle:");
+    scanf("%f",&base);
+     printf("Enter the Height of Triangle:");
+    scanf("%f",&height);
+    area = 0.5*base*height;
+    printf("Area of Triangle is%.2f\n",area);
+    
+    
+    case 3:
+    printf("Enter the Side of Square:");
+    scanf("%f",&side);
+    area = side*side ;
+    printf("Area of Square is%.2f\n",area);
+   
+   case 4:
+    printf("Enter the Width of Rectangle:");
+    scanf("%f",&base);
+     printf("Enter the Height of Rectangle:");
+    scanf("%f",&height);
+    area = base*height;
+    printf("Area of Rectangle is%.2f\n",area);
+   
+   default : printf("Invalid Choice The area is ZERO");
+    
+}
+
+
+
+}
+
