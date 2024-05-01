@@ -1,0 +1,31 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() {
+  
+ 
+  char color;
+  printf("Enter any keyword from VIBGYOR ");
+  scanf("%c",&color);
+  
+  switch(color){
+      case 'V' :printf("Violet");
+      break;
+      case 'I' :printf("INDIGO");
+      break;
+       case 'B' :printf("Blue");
+      break;
+      case 'G' :printf("Green");
+      break;
+       case 'Y' :printf("Yellow");
+      break;
+      case 'O' :printf("Orange");
+      break;
+       case 'R' :printf("Red");
+      break;
+    default :printf("Enters only from VIBGYOR");
+  }
+    
+
+
+}
