@@ -1,0 +1,37 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() {
+  
+ 
+int choice;
+float radius,base,height,side,area;
+
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() {
+  
+ 
+char alphabet;
+printf("Enter an Alphabet");
+scanf("%c",&alphabet);
+switch(alphabet){
+    
+    case 'a':
+    case 'A':
+    case 'e':
+    case 'E':
+    case 'i':
+    case 'I':
+    case 'o':
+    case 'O':
+    case 'u':
+    case 'U':
+
+printf("%c is a vowel.\n",alphabet);
+break;
+default: printf("%c is a consonent.\n",alphabet);
+}
+
+}
